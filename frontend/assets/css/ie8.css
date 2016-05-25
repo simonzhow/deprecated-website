@@ -284,27 +284,27 @@
 
 	#footer {
 		background-color: #4686a0;
-		color: #ffffff;
+		color: #000000;
 	}
 
 		#footer a {
-			border-bottom-color: #ffffff;
+			border-bottom-color: #000000;
 		}
 
 			#footer a:hover {
-				color: #ffffff;
+				color: #000000;
 			}
 
 		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b {
-			color: #ffffff;
+			color: #000000;
 		}
 
 		#footer header p {
-			color: #ffffff;
+			color: #000000;
 		}
 
 		#footer header.major:after {
-			background: #ffffff;
+			background: #000000;
 		}
 
 		#footer input[type="submit"],
@@ -360,9 +360,9 @@
 				}
 
 		#footer ul.major-icons li .icon {
-			border-color: #ffffff;
+			border-color: #000000;
 		}
 
 		#footer .icon.major {
-			color: #ffffff;
+			color: #000000;
 		}

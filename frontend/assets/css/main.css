@@ -2232,6 +2232,7 @@
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
 			font-family: FontAwesome;
+			/*color: #000000;*/
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -2926,7 +2927,7 @@
 			-ms-transform: scale(1);
 			transform: scale(1);
 			opacity: 1;
-			position: relative;
+			position: relative;;
 			z-index: 1;
 		}
 
@@ -2996,6 +2997,7 @@
 
 		#footer a {
 			border-bottom-color: rgba(255, 255, 255, 0.5);
+			color: #000000;
 		}
 
 			#footer a:hover {
@@ -3007,7 +3009,7 @@
 		}
 
 		#footer header p {
-			color: #ffffff;
+			color: #000000;
 		}
 
 		#footer header.major:after {
@@ -3080,6 +3082,7 @@
 
 		#footer .copyright {
 			font-size: 0.8em;
+			color: #000000;
 			list-style: none;
 			margin: 2em 0 0 0;
 			padding: 0;
