@@ -155,6 +155,19 @@
     -o-animation: moveclouds 20s linear infinite;
 }
 
+x6 {
+    left: 150; top: -150px;
+
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 0.8; /*opacity proportional to the size*/
+
+    -webkit-animation: moveclouds 20s linear infinite;
+    -moz-animation: moveclouds 20s linear infinite;
+    -o-animation: moveclouds 20s linear infinite;
+}
+
 @-webkit-keyframes moveclouds {
     0% {margin-left: 1000px;}
     100% {margin-left: -1000px;}
