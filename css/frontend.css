@@ -1,3 +1,4 @@
+/* Resize allows for webpage to cover only the aspect ratio of the given container (in this case iOS) */
 @media
 only screen and (-webkit-min-device-pixel-ratio: 1.5),
 only screen and (-o-min-device-pixel-ratio: 3/2),
