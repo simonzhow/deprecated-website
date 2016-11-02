@@ -11,8 +11,13 @@ Simon's Website
     <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="css/frontend.css" />
-    <link rel="icon" href="icon major fa-bolt">
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="icon" href="icon major fa-bolt" />
     <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 
 
     <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
@@ -78,6 +83,7 @@ Simon's Website
             </script>
 
 
+
             <p></p>
             <ul class="actions">
                 <li><a href="#one" class="button scrolly">Learn More</a></li>
@@ -90,17 +96,19 @@ Simon's Website
     <!-- One -->
     <section id="one" class="main style1">
         <div class="container">
-            <div class="row 150%">
-                <div class="6u 12u$(medium)">
-                    <header class="major">
-                        <h2>About Me</h2>
-                    </header>
-                    <p>Welcome! My name is Simon Zhou, and I am a second year Computer Science major at UCLA. I serve as the Assistant Web Director on the USAC Community Service Commission, and I am passionate about mobile and web development.</p>
+            <div class="wow fadeIn">
+                <div class="row 150%">
+                    <div class="6u 12u$(medium)">
+                        <header class="major">
+                            <h2>About Me</h2>
+                        </header>
+                        <p>Welcome! My name is Simon Zhou, and I am a second year Computer Science major at UCLA. I serve as the Assistant Web Director on the USAC Community Service Commission, and I am passionate about mobile and web development.</p>
 
-                    <p>I mainly work in the languages: <b>C++</b>, <b>Node.js</b>, <b>HTML</b>, <b>CSS</b>, <b>Swift</b>, and <b>Python</b>.</p>
-                </div>
-                <div class="6u$ 12u$(medium) important(medium)">
-                    <img src="images/profilepic.jpg" width="80%" height="80%" alt="" />
+                        <p>I mainly work in the languages: <b>C++</b>, <b>Node.js</b>, <b>HTML</b>, <b>CSS</b>, <b>Swift</b>, and <b>Python</b>.</p>
+                    </div>
+                    <div class="6u$ 12u$(medium) important(medium)">
+                        <img src="images/profilepic.jpg" width="80%" height="80%" alt="" />
+                    </div>
                 </div>
             </div>
         </div>
@@ -115,30 +123,36 @@ Simon's Website
                 <h2>Projects</h2>
             </header>
             <p>Here are some of the latest projects that I've been working on.</p>
-            <div class="row 150%">
-                <div class="4u 12u$(medium)">
-                    <span class="image fit"><a target="_blank" href="https://m.me/1607984789527952"><img src="images/captainmarvel.jpg" alt="" /></a></span>
-                    <h3>Captain Marvel</h3>
-                    <p>Marvel chatbot integrated into Facebook Messenger that responds to user's questions about the Marvel World. Winner of Disney API Prize at LA Hacks 2016.</p>
-                    <ul class="actions">
-                        <li><a target="_blank" href="https://m.me/1607984789527952" class="button">Message Me</a></li>
-                    </ul>
-                </div>
-                <div class="4u 12u$(medium)">
-                    <span class="image fit"><a target="_blank" href="http://ylamerica.org"><img src="images/yla.jpg" alt="" /></a></span>
-                    <h3>Youth Leadership America</h3>
-                    <p>One of the key developers of the general Youth Leadership America (YLA) website. YLA is a nonprofit organization geared towards building professional student leaders.</p>
-                    <ul class="actions">
-                        <li><a target="_blank" href="http://ylamerica.org" class="button">Visit the Website</a></li>
-                    </ul>
-                </div>
-                <div class="4u$ 12u$(medium)">
-                    <span class="image fit"><a target="_blank" href="http://phipsiucla.com"><img src="images/phipsi.jpg" alt="" /></a></span>
-                    <h3>Phi Kappa Psi UCLA</h3>
-                    <p>Created the internal (soon to be public) website for the California Epsilon chapter of Phi Kappa Psi for undergraduates and alumni.</p>
-                    <ul class="actions">
-                        <li><a target="_blank" href="http://phipsiucla.com" class="button">Visit the Website</a></li>
-                    </ul>
+
+            <div class="wow fadeInRight">
+                <div class="row 150%">
+                    <div class="4u 12u$(medium)">
+                        <span class="image fit"><a target="_blank" href="https://m.me/1607984789527952"><img src="images/captainmarvel.jpg" alt="" /></a></span>
+                        <h3>Captain Marvel</h3>
+                        <p>Marvel chatbot integrated into Facebook Messenger that responds to user's questions about the Marvel World. Winner of Disney API Prize at LA Hacks 2016.</p>
+                        <ul class="actions">
+                            <li><a target="_blank" href="https://m.me/1607984789527952" class="button">Message Me</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="4u 12u$(medium)">
+                        <span class="image fit"><a target="_blank" href="http://ylamerica.org"><img src="images/yla.jpg" alt="" /></a></span>
+                        <h3>Youth Leadership America</h3>
+                        <p>One of the key developers of the general Youth Leadership America (YLA) website. YLA is a nonprofit organization geared towards building professional student leaders.</p>
+                        <ul class="actions">
+                            <li><a target="_blank" href="http://ylamerica.org" class="button">Visit the Website</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="4u$ 12u$(medium)">
+                        <span class="image fit"><a target="_blank" href="http://vitaucla.com"><img src="images/vita.jpg" alt="" /></a></span>
+                        <h3>VITA UCLA</h3>
+                        <p>Developed the UCLA chapter website for Volunteer Income Tax Assistance (VITA), an organization dedicated to aiding low-income individuals in need of tax filing help.</p>
+                        <ul class="actions">
+                            <li><a target="_blank" href="http://phipsiucla.com" class="button">Visit the Website</a></li>
+                        </ul>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -163,16 +177,18 @@ Simon's Website
 
     <!-- Footer -->
     <section id="footer">
+
         <ul class="icons">
+            <div class="wow bounce">
+                <li><a target="_blank" href="https://www.linkedin.com/in/zhousimon" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                <li><a target="_blank" href="http://github.com/simonzhow" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+                <li><a href="mailto:simon.zhou@ucla.edu" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
 
-            <li><a target="_blank" href="https://www.linkedin.com/in/zhousimon" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-            <li><a target="_blank" href="http://github.com/simonzhow" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
-            <li><a href="mailto:simon.zhou@ucla.edu" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
-
-            <!--            <li><a target="_blank" href="http://instagram.com/simonzhow" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>-->
-            <!--            <li><a target="_blank" href="https://www.snapchat.com/add/simonsaays" class="icon alt fa-snapchat"><span class="label">Snapchat</span></a></li>-->
-
+                <!--            <li><a target="_blank" href="http://instagram.com/simonzhow" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>-->
+                <!--            <li><a target="_blank" href="https://www.snapchat.com/add/simonsaays" class="icon alt fa-snapchat"><span class="label">Snapchat</span></a></li>-->
+            </div>
         </ul>
+
         <ul class="copyright">
             <li>&copy; Simon Zhou</li>
             <li>2016</li>
