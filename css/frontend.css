@@ -1,7 +1,11 @@
 /* Resize allows for webpage to cover only the aspect ratio of the given container (in this case iOS) */
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-    html, body {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+    html,
+    body {
         width: 100%;
         overflow-x: hidden;
     }
@@ -12,6 +16,19 @@
     background: -webkit-linear-gradient(bottom, #c9dbe9 0%, #fff 100%);
     background: -linear-gradient(top, #c9dbe9 0%, #fff 100%);
     background: -moz-linear-gradient(top, #c9dbe9 0%, #fff 100%);
+}
+
+.sticker {
+    width: 450px;
+    height: 500px;
+}
+
+.example-1 .sticker-img {
+    background-image: url(/images/profilepic%20copy.jpg);
+}
+
+.example-1 .sticker-shadow {
+    opacity: 0.6;
 }
 
 .typed-cursor {
