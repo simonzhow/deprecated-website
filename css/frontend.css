@@ -18,6 +18,27 @@ only screen and (min-device-pixel-ratio: 1.5) {
     background: -moz-linear-gradient(top, #c9dbe9 0%, #fff 100%);
 }
 
+.profilepic {
+  border-radius: 5px;
+}
+
+.contact-form {
+  width: 60%;
+  margin: 0 auto;
+}
+
+#contact-input {
+  margin-bottom: 10px;
+}
+
+input[type="email"]:focus {
+  border-color: blue;
+}
+
+textarea:focus {
+  border-color: blue;
+}
+
 .typed-cursor {
     font-size: 40px;
     opacity: 1;
